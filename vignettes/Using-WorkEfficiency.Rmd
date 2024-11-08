@@ -1,0 +1,10 @@
+---
+title: "Using the WorkEfficiency Package"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using the WorkEfficiency Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+
