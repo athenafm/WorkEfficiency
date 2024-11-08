@@ -10,13 +10,13 @@ The goal of WorkEfficiency is to create a simple and easy way to calculate the t
 
 
 ## Installation
-
-You can install the development version of WorkEfficiency from
-[GitHub](https://github.com/) with:
-
-``` r
-# install.packages("pak")
-pak::pak("athenafm/WorkEfficiency")
+```r
+install.packages("devtools")
+install.packages("usethis")
+library(devtools)
+library(usethis)
+install_github("athenafm/WorkEfficiency")
+library(WorkEfficiency)
 ```
 
 ## Example
