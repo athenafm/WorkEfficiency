@@ -25,7 +25,8 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(WorkEfficiency)
-## basic example code
+calculate_work_efficiency(1500,2000)
+[1] 0.25 
 ```
 
 What is special about using `README.Rmd` instead of just `README.md`?
