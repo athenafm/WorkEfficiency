@@ -6,16 +6,17 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of WorkEfficiency is to …
+The goal of WorkEfficiency is to create a simple and easy way to calculate the total work efficiency during a Metabolic visit at McMaster University. This package will take values from the Total Energy Expended and Resting Energy Expenditure to give a value that corresponds with work efficiency. Both of these values can be obtained experimentally through indirect calorimetry. You can find the corresponding sample data sets in the data folder that you can practice with. You can also find some test runs in the folder test that validates the formula and packages to ensure it is working properly. Lastly, in the man folder you can find the documentation related to this package.
+
 
 ## Installation
-
-You can install the development version of WorkEfficiency from
-[GitHub](https://github.com/) with:
-
-``` r
-# install.packages("pak")
-pak::pak("athenafm/WorkEfficiency")
+```r
+install.packages("devtools")
+install.packages("usethis")
+library(devtools)
+library(usethis)
+install_github("athenafm/WorkEfficiency")
+library(WorkEfficiency)
 ```
 
 ## Example
